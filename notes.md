@@ -14,7 +14,7 @@ Okay, here we go:
 
 SQL 7/1/22
 
-CRUD: create, retrieve, update, delete
+CRUD: create, read, update, delete
 
 SQL and MySQL are different...
 - RDBMS : software that you run to access the data
@@ -23,3 +23,21 @@ SQL and MySQL are different...
 - database client : program used to connect to and query the database
 - DDL : data definition language; commands to change RDBMS or structure of database
 - DML : database manipulation language; used to CRUD information from the database (what we will focus on in course)
+
+Access MySQL in command line: mysql -h host_name -u user_name -p
+
+Queries end in semi-colon
+
+SHOW DATABASES; (Command to list databases)
+USE database_name; (select a database)
+SELECT database(); (Determines what database you currently have selected)
+SELECT * FROM table_name; (Pull all from that particular table in current database)
+SHOW CREATE DATABASE database_name; (show details of the create process for the database)
+
+Database and schema mean the same thing in MySQL Workbench
+
+Use -- or # to insert a comment of one line
+Use /* blah blah blah */ for a multi-line comment
+
+
+
